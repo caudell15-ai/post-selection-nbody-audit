@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this reproducibility package, please cite the associated manuscript and repository DOI."
+title: "From Exploratory Perturber Screening to Post-Selection N-body Audit: Reproducibility Package"
+authors:
+  - family-names: "Caudell"
+    given-names: "Richard"
+version: "1.6-predeposit"
+date-released: "2026-08-26"
+type: dataset
+repository-code: "https://github.com/caudell15-ai/post-selection-nbody-audit"
+doi: "TO_BE_INSERTED"
