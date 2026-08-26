@@ -1,0 +1,27 @@
+{
+  "candidate_population": "all recovered candidates 0 through 89",
+  "delta_days": 400.0,
+  "derived_csv_sha256": "e3d3dc3ec9584c5e6f4180ef6556bf0ff093783408a086cb3cb7df7d3b956f62",
+  "distance_diagnostics": [
+    "closest sampled candidate-to-any-TNO separation versus worst_max_dq",
+    "candidate-Ammonite minimum separation versus Ammonite_max_dq"
+  ],
+  "duration_yr": 60000.0,
+  "experiment": "full_90_candidate_rebound_replication",
+  "failure_policy": "log and retain failures; do not replace candidates",
+  "ias15_followup_rule": "Candidate 60 plus five candidates with largest WHFast worst_max_dq",
+  "include_original_failed_constraints": true,
+  "phase_translation": "M_target=(M_screen+360*(delta_days/365.25)/period_yr)%360",
+  "primary_metrics": ["worst_max_dq_across_four_TNOs", "Ammonite_max_dq"],
+  "primary_score_correlation": "Spearman",
+  "px_a_mass_earth": 4.5,
+  "rebound_version": "5.1.1",
+  "retuning": false,
+  "sample_step_yr": 0.25,
+  "secondary_score_correlation": "Pearson",
+  "source_epoch_jd_tdb": 2460800.5,
+  "source_rtf_sha256": "977e1fff270cebd258aa722358b6033bd50daafad2987c8a05ed6250ba54cdc9",
+  "target_epoch_jd_tdb": 2461200.5,
+  "whfast_dt_yr": 0.125,
+  "year_definition_days": 365.25
+}
