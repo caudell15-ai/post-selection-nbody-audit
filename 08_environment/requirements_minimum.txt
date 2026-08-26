@@ -1,0 +1,6 @@
+rebound==5.1.1
+numpy
+pandas
+scipy
+matplotlib
+striprtf
