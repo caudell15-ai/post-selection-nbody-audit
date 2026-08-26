@@ -1,0 +1,12 @@
+{
+  "candidate_ids": [
+    18,
+    51,
+    60,
+    65,
+    66,
+    77
+  ],
+  "selection_rule": "Candidate 60 plus five largest WHFast worst_max_dq",
+  "source_whfast_results_hash": "af4c869cb804e84b0d39380b49c19161987eab11ceed26acbc61187018a10c41"
+}
