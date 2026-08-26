@@ -1,0 +1,17 @@
+{
+  "acceptance_interpretation": "Assess numerical stability across progressively finer output sampling. No threshold is retroactively used to delete or replace cases.",
+  "cadences_yr": [0.25, 0.125, 0.0625],
+  "candidate_ids": [14, 53, 60, 66, 67],
+  "candidate_selection_rule": "Candidate 60, Candidate 66, and the three successful full-screen candidates with the smallest previously sampled candidate-to-any-TNO separation",
+  "duration_yr": 60000.0,
+  "experiment": "sampling_cadence_resolution_audit",
+  "primary_diagnostics": [
+    "worst max absolute Delta-q across four TNOs",
+    "minimum candidate-to-any-TNO separation",
+    "Ammonite max absolute Delta-q",
+    "minimum candidate-Ammonite separation"
+  ],
+  "px_a_mass_earth": 4.5,
+  "rebound_version": "5.1.1",
+  "whfast_integration_dt_yr": 0.125
+}
