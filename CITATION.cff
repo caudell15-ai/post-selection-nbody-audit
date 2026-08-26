@@ -1,11 +1,20 @@
 cff-version: 1.2.0
-message: "If you use this reproducibility package, please cite the associated manuscript and repository DOI."
+message: "If you use this reproducibility package, please cite the associated manuscript and archived repository release."
 title: "From Exploratory Perturber Screening to Post-Selection N-body Audit: Reproducibility Package"
 authors:
   - family-names: "Caudell"
     given-names: "Richard"
-version: "1.6-predeposit"
+version: "1.6"
 date-released: "2026-08-26"
-type: dataset
+type: software
+abstract: "Reproducibility package for a post-selection N-body audit case study beyond Neptune. The archive preserves the historical candidate screen, frozen validation protocols, REBOUND code, canonical and recovered artifacts, execution logs, and SHA-256 provenance records. It is a methods/reproducibility case study and does not report evidence for an undiscovered planet."
 repository-code: "https://github.com/caudell15-ai/post-selection-nbody-audit"
-doi: "TO_BE_INSERTED"
+keywords:
+  - N-body simulation
+  - REBOUND
+  - reproducibility
+  - post-selection audit
+  - trans-Neptunian objects
+  - celestial mechanics
+  - WHFast
+  - IAS15
