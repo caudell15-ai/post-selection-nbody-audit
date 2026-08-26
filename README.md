@@ -10,16 +10,25 @@ This is a numerical-methods and reproducibility case study, **not a detection cl
 
 - Manuscript v1.6: scientific content frozen
 - Final reviewer consensus: 3/3 — ready after deposition
-- Remaining work: archival/public deposition only
+- Scientific experiments remaining for this manuscript: none unless an actual error is discovered
+- Remaining work: archival/public deposition and DOI insertion
 
-## Reproducibility package
+## Repository contents
 
-The repository contains the frozen manuscript, notebooks/code, recovered 90-candidate screen artifacts, frozen protocols and manifests, execution logs, figures, environment information, and a SHA-256 provenance ledger.
+The repository is being populated from the frozen v1.6 reproducibility package. It includes reproducibility documentation, extracted REBOUND code, frozen protocols, canonical cadence outputs, provenance/hash records, environment documentation, and a noncanonical full-90 runtime restoration derived from the preserved execution log.
 
-Ten of sixteen principal canonical artifacts are presently available as byte-identical files and verify against their recorded SHA-256 values. Six historical result CSVs remain unavailable as original byte-identical files; their expected hashes, serialization rules, and contemporaneous execution records are preserved. They are **not** reconstructed from rounded console output.
+The complete archival package also contains the frozen DOCX manuscript, historical notebooks, figures, raw recovered RTF/CSV artifacts, full execution logs, and larger manifests. Some binary/large artifacts require upload through GitHub/archival release handling rather than the text-file connector used for the initial repository population.
 
-The package explicitly preserves known provenance limits rather than reconstructing them from hindsight.
+## Canonical artifact status
+
+Ten of sixteen principal canonical artifacts are available as byte-identical files and verify against their recorded SHA-256 values. Six historical result CSVs remain unavailable as original byte-identical files; their expected hashes, serialization rules, and contemporaneous execution records are preserved. They are **not** reconstructed from rounded console output.
+
+See `00_README/ARTIFACT_STATUS.md` and `07_provenance/EXPECTED_CANONICAL_HASH_LEDGER.csv`.
+
+## Provenance limits
+
+The package explicitly preserves known provenance limits rather than reconstructing them from hindsight. See `07_provenance/KNOWN_UNRECOVERED_PROVENANCE.md`.
 
 ## Repository DOI
 
-Pending Zenodo/public archival deposition.
+Pending permanent archival deposition/DOI.
